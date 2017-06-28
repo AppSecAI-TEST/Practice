@@ -5,7 +5,6 @@ void insert(Node tree, char value){
 			tree = new Node(value);
 			return tree;
 		}
-			return;
 		
 		if(value < tree.data)
 			tree.left = insert(tree.left,value);
